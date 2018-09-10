@@ -1,19 +1,26 @@
 ---
-title: "Lunes27"
-author: "Gonzalo"
-date: "27 de agosto de 2018"
+title: "Tarea 1"
+author: "Gonzalo Hornos"
 output:
-  pdf_document: default
-  html_document: default
+  pdf_document:
+    number_sections: true
+    
+  fig_width=3cm
+  fig_height=3cm 
+   
 ---
 
 ```{r setup, include=FALSE, echo=TRUE}
-
-N<-rpois(1,90)
-xi<-runif(N,0,1)
-yi<-runif(N,0,1)
-
 ```
+# Introduccion
+
+
+
+
+
+link: https://github.com/Memohuru/cursoIESTA/commit/9d51a611093412596dfe6592885be2af5323fb9d
+
+
 
 ```{r setup2, include=TRUE, echo=FALSE}
 library(knitr)
@@ -35,7 +42,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 plot(pressure)
 ```
 
